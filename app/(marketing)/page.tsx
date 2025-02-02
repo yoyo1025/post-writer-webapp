@@ -111,6 +111,24 @@ export default function IndexPage() {
             </p>
           </div>
       </section>
+      <section id="contact" className="w-full py-8 md:py-12 lg:py-24"> 
+        <div className="flex flex-col text-center gap-4">
+          <h2 className="font-extrabold text-3xl md:text-6xl">Contact Me</h2>
+          <p className="text-muted-foreground sm:text-lg sm:leading-7 ">
+            もしもWebserviceが気に入った場合は下記XからDMでご連絡下さい。
+            <br />
+            お仕事のご連絡をお待ちしております。
+          </p>
+          <Link 
+            href={siteConfig.links.x} 
+            className="underline underline-offset-4"
+            target="_blank"
+            rel="noreferrer"
+          >
+            お仕事はXまで
+          </Link>
+        </div>
+      </section>
     </>
   )
 }
