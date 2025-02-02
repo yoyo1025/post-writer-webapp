@@ -18,7 +18,7 @@ export default function MainNav({items}: MainNavProps) {
           <Link 
             key={index}
             href={item.href} 
-            className="text-lg sm:text-sm font-medium hover: text-foreground/80"
+            className="text-lg sm:text-sm font-medium hover:text-foreground/80"
           >
             {item.title}
           </Link>

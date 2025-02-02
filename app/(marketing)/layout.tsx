@@ -12,8 +12,8 @@ export default function MarketingLayout({
 }){
   return (
     <div>
-      <header className="container z-40 bg-background">
-        <div className="h-20 py-6 flex items-center justify-between">
+      <header className="w-full px-4 z-40 bg-background">
+        <div className="max-w-screen-2xl mx-auto h-20 py-6 flex items-center justify-between">
           <MainNav items={marketingConfig.mainNav}/>
           <Link
             href={"/login"}
