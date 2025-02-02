@@ -1,5 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import MainNav from "@/components/ui/main-nav";
+import { marketingConfig } from "@/config/marketing";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
@@ -13,7 +14,7 @@ export default function MarketingLayout({
     <div>
       <header className="container z-40 bg-background">
         <div className="h-20 py-6 flex items-center justify-between">
-          <MainNav/>
+          <MainNav items={marketingConfig.mainNav}/>
           <Link
             href={"/login"}
             className={cn(
