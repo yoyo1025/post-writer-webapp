@@ -3,7 +3,7 @@
 import { NavItem } from "@/types";
 import Link from "next/link";
 import { ReactNode, useState } from "react";
-import MobileNav from "../mobile-nav";
+import MobileNav from "./mobile-nav";
 
 interface MainNavProps {
   items: NavItem[];
