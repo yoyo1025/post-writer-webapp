@@ -2,6 +2,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function IndexPage() {
   return (
@@ -41,12 +42,68 @@ export default function IndexPage() {
           </div>
         </div>
       </section>
-      <section id="features" className="w-full container py-8 md:py-12 lg:py-24 bg-slate-100">
+      <section id="features" className="w-full py-8 md:py-12 lg:py-24 bg-slate-50 space-y-6">
           <div className="text-center space-y-6 max-w-[58rem] mx-auto">
             <h2 className="font-extrabold text-3xl md:text-6xl">サービスの特徴</h2>
             <p className="flex justify-center text-center text-muted-foreground sm:text-lg sm:leading-7">
               このプロジェクトはモダンな技術スタックを使って作られたWebアプリケーションです。Next.js AppRouterやcontentlayerを利用してマークダウン形式でブログ投稿できます。
             </p>
+          </div>
+          <div className="mx-auto grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="bg-background border p-2 rounded-lg">
+              <div className="flex flex-col justify-between p-6 md:h-[160px] h-[180px]">      
+                <Image src="/nextjs.png" alt="Next.jsのロゴ" width={45} height={45} />
+                <div className="space-y-2">
+                  <h3 className="font-bold">Next.js</h3>
+                  <p className="text-sm text-muted-foreground">AppRouter/Layouts/APIRoutesの技術を使用</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-background border p-2 rounded-lg">
+              <div className="flex flex-col justify-between p-6 md:h-[160px] h-[180px]">      
+                <Image src="/nextjs.png" alt="Next.jsのロゴ" width={45} height={45} />
+                <div className="space-y-2">
+                  <h3 className="font-bold">Next.js</h3>
+                  <p className="text-sm text-muted-foreground">AppRouter/Layouts/APIRoutesの技術を使用</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-background border p-2 rounded-lg">
+              <div className="flex flex-col justify-between p-6 md:h-[160px] h-[180px]">      
+                <Image src="/nextjs.png" alt="Next.jsのロゴ" width={45} height={45} />
+                <div className="space-y-2">
+                  <h3 className="font-bold">Next.js</h3>
+                  <p className="text-sm text-muted-foreground">AppRouter/Layouts/APIRoutesの技術を使用</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-background border p-2 rounded-lg">
+              <div className="flex flex-col justify-between p-6 md:h-[160px] h-[180px]">      
+                <Image src="/nextjs.png" alt="Next.jsのロゴ" width={45} height={45} />
+                <div className="space-y-2">
+                  <h3 className="font-bold">Next.js</h3>
+                  <p className="text-sm text-muted-foreground">AppRouter/Layouts/APIRoutesの技術を使用</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-background border p-2 rounded-lg">
+              <div className="flex flex-col justify-between p-6 md:h-[160px] h-[180px]">      
+                <Image src="/nextjs.png" alt="Next.jsのロゴ" width={45} height={45} />
+                <div className="space-y-2">
+                  <h3 className="font-bold">Next.js</h3>
+                  <p className="text-sm text-muted-foreground">AppRouter/Layouts/APIRoutesの技術を使用</p>
+                </div>
+              </div>
+            </div>
+            <div className="bg-background border p-2 rounded-lg">
+              <div className="flex flex-col justify-between p-6 md:h-[160px] h-[180px]">      
+                <Image src="/nextjs.png" alt="Next.jsのロゴ" width={45} height={45} />
+                <div className="space-y-2">
+                  <h3 className="font-bold">Next.js</h3>
+                  <p className="text-sm text-muted-foreground">AppRouter/Layouts/APIRoutesの技術を使用</p>
+                </div>
+              </div>
+            </div>
           </div>
       </section>
     </>
