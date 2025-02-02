@@ -105,6 +105,11 @@ export default function IndexPage() {
               </div>
             </div>
           </div>
+          <div className="flex justify-center w-full">
+            <p className="text-center text-muted-foreground sm:text-lg sm:leading-7">
+              Post Writerはログインするとブログ投稿が出来るようになります。
+            </p>
+          </div>
       </section>
     </>
   )
